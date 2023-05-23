@@ -9,6 +9,18 @@ body {
   color: #fff;
 }
 
-.card {
-  background-color: #fff;
+button {
+  background-color: #e08594;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: #c77683;
 }

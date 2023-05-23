@@ -1,8 +1,10 @@
+import styles from './RecipeItem.module.css';
+
 const RecipeItem = ({ recipe }) => {
   return (
-    <div className="card">
+    <div className={styles.item}>
       {/* <img src="" alt="img" /> */}
-      <h2>{recipe.name}asdasdasd</h2>
+      <h3>{recipe.name}</h3>
       <button>Add to favorites</button>
     </div>
   );
